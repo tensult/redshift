@@ -1,4 +1,4 @@
-==Useful Redshift queries:==
+=== Useful Redshift queries
 **Get Copy command history with tableNames**
 ```sql
 SELECT l.curtime,q.database, split_part(q.querytxt,' ', 2) AS tableName,l.filename
