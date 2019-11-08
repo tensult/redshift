@@ -16,4 +16,4 @@ SELECT * FROM stl_query WHERE STRPOS(querytxt, 'table_name') != 0;
 ```
 
 ## Gotchas
-* DONT Use * or any special characters in column names, it will cause issues in resizing the cluster.
+* DONT Use '*' or any special characters in column names, it will cause issues in resizing the cluster.
